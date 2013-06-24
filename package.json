@@ -1,0 +1,27 @@
+{
+    "name": "html-compress",
+    "description": "html compress.",
+    "homepage": "http://fis.baidu.com/",
+    "version": "0.0.1",
+    "author": {
+        "name": "FIS Team",
+        "email": "fis@baidu.com"
+    },
+    "keywords": [
+        "fis", "html", "tpl", "compress"
+    ],
+    "main": "./lib/html.js",
+    "scripts": {
+        "test": "mocha test --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yuanfang829/html-compress.git"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "dependencies": {
+        "chai": "~1.4.2"
+    }
+}

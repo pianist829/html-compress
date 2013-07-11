@@ -4,6 +4,7 @@
 /.gitignore
 /node_modules
 /.tmp
+/test
 
 
 .DS_Store

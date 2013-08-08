@@ -5,6 +5,12 @@
 {#/strip#}
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>{#$title#}</title>
+{#script#}
+        var a = 'a';
+        var b = 'b/
+                c/
+                d';
+    {#/script#}
 </head>
 <body>
 {#widget name="common:menu"#}
